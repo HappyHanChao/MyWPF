@@ -1,0 +1,15 @@
+C:\MyProject\MyGitProject\MyWPF\WPFTest\WPFTest\obj\Debug\View\MainView.g.cs
+C:\MyProject\MyGitProject\MyWPF\WPFTest\WPFTest\obj\Debug\App.g.cs
+C:\MyProject\MyGitProject\MyWPF\WPFTest\WPFTest\obj\Debug\WPFTest_MarkupCompile.cache
+C:\MyProject\MyGitProject\MyWPF\WPFTest\WPFTest\obj\Debug\WPFTest_MarkupCompile.lref
+C:\MyProject\MyGitProject\MyWPF\WPFTest\WPFTest\bin\Debug\WPFTest.exe.config
+C:\MyProject\MyGitProject\MyWPF\WPFTest\WPFTest\bin\Debug\WPFTest.exe
+C:\MyProject\MyGitProject\MyWPF\WPFTest\WPFTest\bin\Debug\WPFTest.pdb
+C:\MyProject\MyGitProject\MyWPF\WPFTest\WPFTest\obj\Debug\WPFTest.csprojAssemblyReference.cache
+C:\MyProject\MyGitProject\MyWPF\WPFTest\WPFTest\obj\Debug\View\MainView.baml
+C:\MyProject\MyGitProject\MyWPF\WPFTest\WPFTest\obj\Debug\WPFTest.g.resources
+C:\MyProject\MyGitProject\MyWPF\WPFTest\WPFTest\obj\Debug\WPFTest.Properties.Resources.resources
+C:\MyProject\MyGitProject\MyWPF\WPFTest\WPFTest\obj\Debug\WPFTest.csproj.GenerateResource.cache
+C:\MyProject\MyGitProject\MyWPF\WPFTest\WPFTest\obj\Debug\WPFTest.exe
+C:\MyProject\MyGitProject\MyWPF\WPFTest\WPFTest\obj\Debug\WPFTest.pdb
+C:\MyProject\MyGitProject\MyWPF\WPFTest\WPFTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
