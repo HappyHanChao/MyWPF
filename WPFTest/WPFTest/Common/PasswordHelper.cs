@@ -11,7 +11,7 @@ namespace WPFTest.Common
     public class PasswordHelper
     {
         /*
-         由于Password标签无法直接Binding后台类v
+         由于Password标签无法直接Binding后台类
          可以采用两种方式去间接的Binding数据
          1. 采用WPF用户控件的方式
          2. 采用附加类的方式
