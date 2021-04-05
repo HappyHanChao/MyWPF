@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTest", "WPFTest\WPFTest.csproj", "{0F1B1A64-B79F-4AA1-BD2B-5DC9FA32E31E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutTest", "LayoutTest\LayoutTest.csproj", "{C7358E82-51DB-4FCA-BBC5-E5AE9B07D2A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0F1B1A64-B79F-4AA1-BD2B-5DC9FA32E31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F1B1A64-B79F-4AA1-BD2B-5DC9FA32E31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F1B1A64-B79F-4AA1-BD2B-5DC9FA32E31E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7358E82-51DB-4FCA-BBC5-E5AE9B07D2A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7358E82-51DB-4FCA-BBC5-E5AE9B07D2A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7358E82-51DB-4FCA-BBC5-E5AE9B07D2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7358E82-51DB-4FCA-BBC5-E5AE9B07D2A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

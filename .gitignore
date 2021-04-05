@@ -1,4 +1,5 @@
 [Bb]in/
 [Oo]bj/
+packages/
 *.user
 .vs

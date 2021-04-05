@@ -1,0 +1,48 @@
+﻿<Window x:Class="LayoutTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LayoutTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="800">
+    <Border Background="#007DFA" CornerRadius="10" Width="700" Height="600" VerticalAlignment="Top" >
+        
+        <Grid>
+            <!--StackPanel里面的元素会默认以垂直方向堆叠起来(主要是针对内部元素)-->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" 
+                        Background="#eee" Height="100" Width="300">
+                <Button Name="btn4" Content="按钮1" VerticalAlignment="Top" />
+                <Button Name="btn5" MaxHeight="60" Content="按钮2" />
+                <Button Name="btn6" VerticalAlignment="Center">居中按钮</Button>
+            </StackPanel>
+            <!--许读者会觉得这与Stackpanel没什么区别，但是如果调整主窗体大小，则
+            会看到当宽度不够摆放在一行时，WrapPanel将换一个新的行进行按钮的显示。-->
+            <WrapPanel Margin="3" Orientation='Vertical'>
+            <Button Name="btn1" Content="按钮1" VerticalAlignment="Top" />
+            <Button Name="btn2" MaxHeight="60" Content="按钮2" />
+            <Button Name="btn3" VerticalAlignment="Center">居中按钮</Button>
+            </WrapPanel>
+            <!--DockerPanel会让内部的子元素默认占满整个元素，并且能通过DockPanel的.Dock属性设置在内部的位置-->
+            <DockPanel Height="200" Width="400" HorizontalAlignment="Right">
+                <Button x:Name="button" Content="Button" DockPanel.Dock="Top" />
+                <Button x:Name="button1" Content="Button" DockPanel.Dock="Bottom" />
+                <Button x:Name="button2" Content="button" DockPanel.Dock="Left"/>
+                <Button Name="btn7" Content="button2" DockPanel.Dock="Right"/>
+                <Button x:Name="button3" Content="Button" />
+            </DockPanel>
+            <!--Canvs画布是一种更精确的布局的方式-->
+            <Canvas>
+                <TextBlock FontFamily="思源雅黑" Canvas.Left="50" Canvas.Top="15" TextAlignment="Center" FontSize="12">1. 数据的接受</TextBlock>
+                <TextBlock FontFamily="思源雅黑" Canvas.Left="50" Canvas.Top="45" TextAlignment="Center" FontSize="12">2. 数据的发送</TextBlock>
+                <TextBlock FontFamily="思源雅黑" Canvas.Left="50" Canvas.Top="75" TextAlignment="Center" FontSize="12">3. Hex发送</TextBlock>
+                <TextBlock FontFamily="思源雅黑" Canvas.Left="50" Canvas.Top="105" TextAlignment="Center" FontSize="12">4. Hex显示</TextBlock>
+                <TextBlock FontFamily="思源雅黑" Canvas.Left="50" Canvas.Top="135" TextAlignment="Center" FontSize="12">5. ASCII编码</TextBlock>
+                <TextBlock FontFamily="思源雅黑" Canvas.Left="50" Canvas.Top="165" TextAlignment="Center" FontSize="12">6. UTF-8编码</TextBlock>
+                <TextBlock FontFamily="思源雅黑" Canvas.Left="50" Canvas.Top="195" TextAlignment="Center" FontSize="12">7. Unicode编码</TextBlock>
+            </Canvas>
+        </Grid>
+        
+    </Border>
+    
+</Window>

@@ -10,23 +10,28 @@ namespace WPFTest.Common
     public class CommandBase : ICommand
     {
         public event EventHandler CanExecuteChanged;
-        public Action<object> doExecute { get; set; }
-        public Func<object, bool> doCanExecute { get; set; }
+        public Action<object> _doExecute { get; set; }
+        public Func<object, bool> _doCanExecute { get; set; }
 
-        public CommandBase(Action<object> _doExecute,Func<object,bool> _doCanExecute)
+        public CommandBase(Action<object> doExecute,Func<object,bool> doCanExecute)
         {
-            doExecute = _doExecute;
-            doCanExecute = _doCanExecute;
+            _doExecute = doExecute;
+            _doCanExecute = doCanExecute;
         }
 
         public bool CanExecute(object parameter)
         {
-            return doCanExecute?.Invoke(parameter)==true;
+            return _doCanExecute?.Invoke(parameter)==true;
         }
 
         public void Execute(object parameter)
         {
-            doExecute?.Invoke(parameter);
-        }      
+            _doExecute?.Invoke(parameter);
+        }
+
+        public void RaiseCanExecuteChanged()
+        {
+            CanExecuteChanged?.Invoke(this, new EventArgs());
+        }
     }
 }

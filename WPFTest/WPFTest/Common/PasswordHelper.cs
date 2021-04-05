@@ -44,7 +44,7 @@ namespace WPFTest.Common
             password.PasswordChanged -= Password_PasswrodChanged;
             if (!isUpdating)
             {
-                password.Password = e.NewValue.ToString();
+                password.Password = e.NewValue?.ToString();
             }
             password.PasswordChanged += Password_PasswrodChanged;
 
