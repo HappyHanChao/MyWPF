@@ -77,14 +77,31 @@
     <Compile Include="Converter\BoolToArrowConverter.cs" />
     <Compile Include="Converter\BoolToBrushConverter.cs" />
     <Compile Include="Converter\GenderConverter.cs" />
+    <Compile Include="Model\CourseSeriesModel.cs" />
+    <Compile Include="Model\SeriesModel.cs" />
     <Compile Include="Model\UserModel.cs" />
+    <Compile Include="ViewModel\FirstPageViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="View\CoursePageView.xaml.cs">
+      <DependentUpon>CoursePageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FirstPageView.xaml.cs">
+      <DependentUpon>FirstPageView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
     </Compile>
     <Page Include="Asserts\Styles\DefaultStyle.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\CoursePageView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\FirstPageView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\LoginView.xaml">
       <Generator>MSBuild:Compile</Generator>

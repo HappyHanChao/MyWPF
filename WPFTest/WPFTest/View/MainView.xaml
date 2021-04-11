@@ -45,7 +45,7 @@
                                     <ColumnDefinition Width="30"/>
                                     <ColumnDefinition/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock Text="&#xe600;" FontFamily="../Assets/Fonts/#iconfont" VerticalAlignment="Center"
+                                <TextBlock Text="&#xe620;" FontFamily="../Asserts/Fonts/#iconfont" VerticalAlignment="Center"
                                    HorizontalAlignment="Center" Foreground="#44FFFFFF" FontSize="15"/>
                                 <TextBlock Text="Search for what you like..." Grid.Column="1" VerticalAlignment="Center" 
                                    Foreground="#44FFFFFF" Name="mt" Visibility="Collapsed"/>
@@ -124,9 +124,9 @@
             <!--窗口控制按钮-->
             <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right">
                 <Button Style="{StaticResource WindowControlButtonStyle}"
-                        Content="&#xe7e6;" Foreground="White" Click="btnMin_Click"/>
+                        Content="&#xe63b;" Foreground="White" Click="btnMin_Click"/>
                 <Button Style="{StaticResource WindowControlButtonStyle}"
-                        Content="&#xe694;"  Foreground="White" Click="btnMax_Click"/>
+                        Content="&#xe6be;"  Foreground="White" Click="btnMax_Click"/>
                 <Button Style="{StaticResource WindowControlButtonStyle}"
                         Content="&#xe611;"  Foreground="White" Click="btnClose_Click"/>
             </StackPanel>
@@ -197,7 +197,7 @@
                         <RowDefinition/>
                     </Grid.RowDefinitions>
                     <Button Width="40" Height="40" BorderThickness="0" Content="&#xe653;"
-                        FontFamily="../Assets/Fonts/#iconfont"
+                        FontFamily="../Asserts/Fonts/#iconfont"
                         VerticalAlignment="Top" HorizontalAlignment="Left"
                         Name="btnCloseUserInfo"/>
 

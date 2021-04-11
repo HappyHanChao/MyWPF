@@ -38,7 +38,7 @@ namespace WPFTest.ViewModel
             UserInfo = new UserModel();
             //this.NavChangedCommand = new CommandBase(DoNavChanged, (i) => { return true; });
 
-            //DoNavChanged("FirstPageView");
+            DoNavChanged("FirstPageView");
         }
 
         private void DoNavChanged(object obj)
