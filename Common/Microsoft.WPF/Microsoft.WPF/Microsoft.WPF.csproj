@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\AttachedProperty\ChooseTaskManager.cs" />
+    <Compile Include="Common\CommandBase.cs" />
     <Compile Include="Common\ControlsSearchHelper.cs" />
     <Compile Include="Common\NotifyBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
